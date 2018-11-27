@@ -1,0 +1,135 @@
+[1] A. Bagga and B. Baldwin. Algorithms for scoring coreference
+chains. InLREC,pages563–566,1998.
+[2] R. Bekkerman and A. McCallum. Disambiguating web
+appearances of people in a social network. InWWW,pages
+463–470, 2005.
+[3] I. Bhattacharya and L. Getoor. A latent dirichlet model for
+unsupervised entity resolution. InSDM,2006.
+[4] I. Bhattacharya and L. Getoor. Collective entity resolution in
+relational data.ACM TKDD,1(1),2007.
+[5] D. M. Blei, A. Y. Ng, and M. I. Jordan. Latent dirichlet
+allocation.JMLR,3:993–1022,2003.
+[6] W. W. Cohen, P. D. Ravikumar, and S. E. Fienberg. A
+comparison of string distance metrics for name-matching tasks.
+InIIWeb,pages73–78,2003.
+[7] R. G. Cota, A. A. Ferreira, M. A. Gonçalves, A. H. F. Laender,
+and C. Nascimento. An unsupervised heuristic-based
+hierarchical method for name disambiguation in bibliographic
+citations.JASIST,61(9):1853–1870,2010.
+[8] K. Crammer and Y. Singer. Ultraconservative online algorithms
+for multiclass problems.JMLR,3:951–991,2003.
+[9] A. Culotta, P. Kanani, R. Hall, M. Wick, and A. McCallum.
+Author disambiguation using error-driven machine learning
+with a ranking loss function. InIIWeb,2007.
+[10] A. P. de Carvalho, A. A. Ferreira, A. H. F. Laender, and M.A.
+Gonçalves. Incremental unsupervised name disambiguation in
+cleaned digital libraries.JIDM,2(3):289–304,2011.
+[11] A. Dempster, N. Laird, and D. Rubin. Maximum likelihood
+from incomplete data via the EM algorithm.Journal of the
+Royal Statistical Society. Series B,39(1):1–38,1977.
+[12] C. P. Diehl, L. Getoor, and G. Namata. Name reference
+resolution in organizational email archives. InSDM,pages
+70–91, 2006.
+[13] D. Dueck and B. J. Frey. Non-metric affinity propagation for
+unsupervised image categorization. InICCV,2007.
+[14] M. Ester, H.-P. Kriegel, J. Sander, and X. Xu. A density-based
+algorithm for discovering clusters in large spatial databases
+with noise. InKDD,pages226–231,1996.
+[15] X. Fan, J. Wang, X. Pu, L. Zhou, and B. Lv. On graph-based
+name disambiguation.JDIQ,2:10:1–10:23,2011.
+[16] A. A. Ferreira, A. Veloso, M. A. Gonçalves, and A. H. F.
+Laender. Effective self-training author name disambiguationin
+scholarly digital libraries. InJCDL,pages39–48,2010.
+[17] Y. Freund and R. Schapire. Large margin classification using the
+perceptron algorithm.Machine learning,37(3):277–296,1999.
+[18] C. Galvez and F. de Moya Anegón. Approximate personal
+name-matching through finite-state graphs.JASIST,
+58(13):1960–1976, 2007.
+[19] T. Griffiths and M. Steyvers. Finding scientific topics.The
+National Academy of Sciences,101(1):5228–5235,2004.
+[20] H. Han, C. L. Giles, H. Zha, C. Li, and K. Tsioutsiouliklis. Two
+supervised learning approaches for name disambiguation in
+author citations. InJCDL,pages296–305,2004.
+[21] H. Han, W. Xu, H. Zha, and C. L. Giles. A hierarchical naive
+Bayes mixture model for name disambiguation in author
+citations. InSAC,pages1065–1069,2005.
+[22] H. Han, H. Zha, and C. L. Giles. Name disambiguation in
+author citations using a k-way spectral clustering method. In
+JCDL,pages334–343,2005.
+[23] J. Han and M. Kamber.Data mining: concepts and techniques.
+Morgan Kaufmann, 2005.
+[24] J. Huang, S. Ertekin, and C. L. Giles. Efficient name
+disambiguation for large-scale databases. InECML-PKDD,
+pages 536–544, 2006.
+[25] A. K. Jain, M. N. Murty, and P. J. Flynn. Data clustering:a
+review.ACM Computing Surveys,31(3):264–323,1999.
+[26] P. Kanani, A. McCallum, and C. Pal. Improving author
+coreference by resource-bounded information gathering from
+the web. InIJCAI,pages429–434,2007.
+[27] I.-S. Kang, S.-H. Na, S. Lee, H. Jung, P. Kim, W.-K. Sung, and
+J.-H. Lee. On co-authorship for author disambiguation.Inf.
+Process. Manage.,45(1):84–97,2009.
+[28] V. C. Klaas. Who’s who in the world wide web: Approaches to
+name disambiguation. Master’s thesis, Diplomarbeit, LMU
+München, Informatik, 2007.
+[29] A. H. F. Laender, M. A. Gonçalves, R. G. Cota, A. A. Ferreira,
+R. L. T. Santos, and A. J. C. Silva. Keeping a digital library
+clean: new solutions to old problems. InDocEng,pages
+257–262, 2008.
+[30] C. Lagoze and H. V. de Sompel. The open archives initiative:
+building a low-barrier interoperability framework. InJCDL,
+pages 54–62, 2001.
+[31] D. Lee, J. Kang, P. Mitra, C. L. Giles, and B.-W. On. Are your
+citations clean?Comm. ACM,50(12):33–38,2007.
+[32] M.-L. Lee, T. W. Ling, and W. L. Low. IntelliClean: a
+knowledge-based intelligent data cleaner. InKDD,pages
+290–294, 2000.
+[33] F. H. Levin and C. A. Heuser. Evaluating the use of social
+networks in author name disambiguation in digital libraries.
+JIDM,1(2):183–197,2010.
+[34] T. M. Mitchell.Machine Learning.McGraw-Hill,1997.
+[35] B.-W. On, E. Elmacioglu, D. Lee, J. Kang, and J. Pei.
+Improving grouped-entity resolution using quasi-cliques.In
+ICDM,pages1008–015,2006.
+[36] B.-W. On and D. Lee. Scalable name disambiguation using
+multi-level graph partition. InSDM,pages575–580,2007.
+[37] B.-W. On, D. Lee, J. Kang, and P. Mitra. Comparative studyof
+name disambiguation problem using a scalable blocking-based
+framework. InJCDL,pages344–353,2005.
+[38] D. A. Pereira, B. A. Ribeiro-Neto, N. Ziviani, A. H. F. Laender,
+M. A. Gonçalves, and A. A. Ferreira. Using web information
+for author name disambiguation. InJCDL,pages49–58,2009.
+[39] C. L. Scoville, E. D. Johnson, and A. L. McConnell. When A.
+Rose is not A. Rose: the vagaries of author searching.Medical
+Reference Services Quaterly,22(4):1–11,2003.
+[40] L. Shu, B. Long, and W. Meng. A latent topic model for
+complete entity resolution. InICDE,pages880–891,2009.
+[41] J. M. Soler. Separating the articles of authors with thesame
+name.Scientometrics,72(2):281–290,2007.
+[42] Y. Song, J. Huang, I. G. Councill, J. Li, and C. L. Giles.
+Efficient topic-based unsupervised name disambiguation. In
+JCDL,pages342–351,2007.
+[43] J. Tang andet al. A unified probabilistic framework for name
+disambiguation in digital library.TKDE,24(6):975–987,2012.
+[44] V. I. Torvik , M. Weeber, D. R. Swanson, and N. R. Smalheiser.
+A probabilistic similarity metric for Medline records: A model
+for author name disambiguation.JASIST,56(2):140–158,2005.
+[45] V. I. Torvik and N. R. Smalheiser. Author name disambiguation
+in MEDLINE.ACM TKDD,3(3):1–29,2009.
+[46] P. Treeratpituk and C. L. Giles. Disambiguating authorsin
+academic publications using random forests. InJCDL,pages
+39–48, 2009.
+[47] A. Veloso, A. A. Ferreira, M. A. Gonçalves, A. H. F. Laender,
+and W. Meira Jr. Cost-effective on-demand associative author
+name disambiguation.Inf. Process. Manage.,48(4):680–697,
+2012.
+[48] Q. M. Vu, T. Masada, A. Takasu, and J. Adachi. Using a
+knowledge base to disambiguate personal name in web search
+results. InSAC,pages839–843,2007.
+[49] K.-H. Yang, H.-T. Peng, J.-Y. Jiang, H.-M. Lee, and J.-M.Ho.
+Author name disambiguation for citations using topic and web
+correlation. InECDL,pages185–196,2008.
+[50] M. Yoshida andet al. Person name disambiguation by
+bootstrapping. InSIGIR,pages10–17,2010.
+[51] H. Zha andet al. Spectral relaxation for K-means clustering. In
+NIPS,pages1057–1064,2001.

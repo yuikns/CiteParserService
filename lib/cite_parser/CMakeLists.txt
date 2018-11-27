@@ -1,0 +1,49 @@
+SET(LIBCITE_PARSER_VERSION 1.0)
+SET(LIBCITE_PARSER_SOVERSION 0.1)
+
+#SET(CMAKE_C_FLAGS "$ENV{CFLAGS} -O3 -Wall -std=gnu99")
+#SET(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -O3 -Wall -std=c++11")
+
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+
+AUX_SOURCE_DIRECTORY(. LIBCITE_PARSER_SRC)
+
+# ARNETNW start
+# SET(LIBCITE_PARSER_SRC cite_parser.c)
+ADD_LIBRARY(cite_parser SHARED ${LIBCITE_PARSER_SRC})
+SET_TARGET_PROPERTIES(cite_parser PROPERTIES VERSION ${LIBCITE_PARSER_VERSION} SOVERSION ${LIBCITE_PARSER_SOVERSION})
+
+#TARGET_LINK_LIBRARIES(cite_parser error)
+#TARGET_LINK_LIBRARIES(cite_parser_s cite_parser)
+
+
+ADD_LIBRARY(cite_parser_s STATIC ${LIBCITE_PARSER_SRC})
+
+SET_TARGET_PROPERTIES(cite_parser_s PROPERTIES OUTPUT_NAME "cite_parser")
+
+ADD_DEPENDENCIES(cite_parser_s dirtrav_s)
+ADD_DEPENDENCIES(cite_parser_s iniparser_s)
+ADD_DEPENDENCIES(cite_parser_s sqlite3_s)
+#ADD_DEPENDENCIES(cite_parser_s crfpp)
+
+TARGET_LINK_LIBRARIES(cite_parser_s dirtrav_s)
+TARGET_LINK_LIBRARIES(cite_parser_s iniparser_s)
+TARGET_LINK_LIBRARIES(cite_parser_s sqlite3_s)
+TARGET_LINK_LIBRARIES(cite_parser_s crfpp)
+TARGET_LINK_LIBRARIES(cite_parser_s dl)
+TARGET_LINK_LIBRARIES(cite_parser_s pthread)
+TARGET_LINK_LIBRARIES(cite_parser_s m)
+
+
+
+INSTALL (TARGETS cite_parser cite_parser_s
+    LIBRARY DESTINATION lib64
+    ARCHIVE DESTINATION lib64)
+
+INSTALL (FILES ${PROJECT_SOURCE_DIR}/include/cite_parser.h DESTINATION include/)
+
+# ARNETNW end
+
+
+
+

@@ -1,0 +1,13 @@
+*.data
+#*.db
+*~
+*.swp
+*/data/*
+*/trash/*
+*/unused/*
+*.o
+
+*.class
+
+build/*
+
